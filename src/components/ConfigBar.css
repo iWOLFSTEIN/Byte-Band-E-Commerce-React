@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.config-bar {
+  background-color: #013d28;
+  width: 100%;
+  height: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+  color: white;
+  box-sizing: border-box;
+}
+
+.icon {
+  padding-right: 8px;
+  padding-top: 4px;
+}
+
+.config-bar .content {
+  float: left;
+  font-size: 14px;
+}
+
+.config-bar .spacer {
+  padding-right: 40px;
+}
+
+.config-bar .down-arrow {
+  padding-left: 4px;
+  padding-top: 4px;
+}
