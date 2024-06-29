@@ -1,0 +1,70 @@
+.app-bar {
+  background-color: white;
+  display: flex;
+  color: black;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  padding: 0rem 2rem 0rem 2rem;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.app-bar .left-nav-half {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.app-bar .left-nav-half .logo {
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 0;
+}
+
+.app-bar .left-nav-half ul {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+  font-weight: 600;
+}
+
+.app-bar .right-nav-half {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.app-bar .right-nav-half .search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.app-bar .right-nav-half .search .search-input {
+  height: 40px;
+  width: 350px;
+  border-radius: 50px;
+  padding: 0rem 3rem 0rem 1rem;
+  color: black;
+  background-color: #f6f7f8;
+  border: none;
+  outline: none;
+}
+
+.app-bar .right-nav-half .search .search-icon {
+  right: 0rem;
+  z-index: 1;
+  color: black;
+  position: absolute;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.app-bar .drop-down {
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}

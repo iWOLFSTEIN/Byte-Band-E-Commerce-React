@@ -1,4 +1,4 @@
-import "./ConfigBar.css";
+import '../css/ConfigBar.css';
 import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
