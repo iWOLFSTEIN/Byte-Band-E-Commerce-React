@@ -12,7 +12,7 @@ function PromotionBanner() {
         </div>
         <div className="right-half">
           <img
-            src="https://www.pngfind.com/pngs/m/35-357459_collection-of-free-transparent-person-download-on-person.png"
+            src="https://png.pngtree.com/png-vector/20240123/ourlarge/pngtree-smiling-guy-in-earphones-listen-music-on-mobile-png-image_11486394.png"
             alt=""
           />
         </div>

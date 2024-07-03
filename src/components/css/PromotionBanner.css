@@ -8,7 +8,7 @@
   top: 100px;
   left: 0px;
   width: 100%;
-  padding: 0rem 6rem 0rem 6rem;
+  padding: 0rem 5rem 0rem 5rem;
   box-sizing: border-box;
 }
 
@@ -54,7 +54,7 @@
   align-items: end;
   gap: 1.5rem;
   justify-content: end;
-  mix-blend-mode: multiply;
+  mix-blend-mode: darken;
   position: absolute;
   bottom: 0;
   right: 0;

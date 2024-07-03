@@ -1,0 +1,39 @@
+.items-action-bar {
+  background-color: white;
+  position: fixed;
+  top: 450px;
+  left: 0px;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 5rem 0rem 5rem;
+  align-items: center;
+}
+
+.items-action-bar .left-half {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.items-action-bar .right-half {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.items-action-bar .action-bar-button {
+  background-color: #eaeded;
+  color: black;
+  padding: 8px 16px 8px 16px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
