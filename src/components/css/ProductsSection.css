@@ -1,0 +1,21 @@
+.products-section {
+  position: fixed;
+  top: 570px;
+  left: 0px;
+  justify-content: start;
+  align-items: start;
+  padding: 2rem 5rem 2rem 5rem;
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.products-section .product {
+  height: 400px;
+  width: 300px;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
